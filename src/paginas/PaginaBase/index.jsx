@@ -2,6 +2,8 @@ import styled from "styled-components"
 import Cabecalho from "../../componentes/Cabecalho"
 import EstilosGlobais from "../../componentes/EstilosGlobais"
 import Rodape from "../../componentes/Rodape"
+import Banner from "../../componentes/Banner"
+import { useState } from "react"
 
 const Fundo = styled.div`
   background-color: #420522;

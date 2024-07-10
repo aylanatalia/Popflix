@@ -1,0 +1,100 @@
+{
+    "Categorias": [
+        {
+            "id": 1,
+            "nome": "Pop internacional",
+            "color": "#4c007d"
+        },
+        {
+            "id": 2,
+            "nome": "Pop nacional",
+            "color": "#bc4ed8"
+        },
+        {
+            "id": 3,
+            "nome": "Flashback",
+            "color": "#f988ff"
+        }
+    ],
+    "VideoClipes":[
+        {
+            "id": 1,
+            "titulo": "Bad Romance - Lady Gaga",
+            "categoria": "Pop internacional",
+            "capa": "https://th.bing.com/th/id/R.95bec909df3cb330093251ba3b53110d?rik=A%2b8NHJZdXExZhw&pid=ImgRaw&r=0",
+            "link": "https://www.youtube.com/embed/qrO4YZeyl0I",
+            "descricao": "video clipe de Bad Romance do album 'The Fame monster' da cantora Lady Gaga, lançado em 2009"
+        },
+        {
+            "id": 2,
+            "titulo": "Rubi - Pabllo Vittar feat Will Love",
+            "categoria": "Pop nacional",
+            "capa": "https://i.ytimg.com/vi/UI0R0HX5J0I/maxresdefault.jpg",
+            "link": "https://www.youtube.com/embed/e1tII1nqMoM",
+            "descricao": "Rubi é uma música do album 'Batidão tropical volume 2' da Cantora Pabllo Vittar lançado em 2024"
+        },
+        {
+            "id": 3,
+            "titulo": "Holding out for a hero - Bonnie Tyler",
+            "categoria": "Flashback",
+            "capa": "https://th.bing.com/th/id/OIP.oMZHDOdCdYgphP6MaCxRUAAAAA?rs=1&pid=ImgDetMain",
+            "link": "https://www.youtube.com/embed/bWcASV2sey0",
+            "descricao": "Holding out for a hero é uma música do album Secrets dreams  and forbidden fire de Bonnie Tyler"
+        },
+        {
+            "id": 4,
+            "titulo": "Diamonds - Rihanna",
+            "categoria": "Pop internacional",
+            "capa": "https://th.bing.com/th/id/OIP.meFAA1ROWC_9VRyvOWQ6_gHaE5?rs=1&pid=ImgDetMain",
+            "link": "https://youtube.com/embed/lWA2pjMjpBs",
+            "descricao": "Diamonds é uma música do album Unapologetic da Rihanna lançado em 2012"
+        },
+        {
+            "id": 5,
+            "titulo": "Double team - Anitta feat Brray, Bad Gyal",
+            "categoria": "Pop nacional",
+            "capa": "https://th.bing.com/th/id/OIP.bACW5WNjdFDfefltQuFxhgHaFj?rs=1&pid=ImgDetMain",
+            "link": "https://www.youtube.com/embed/MXoIdLxol2g",
+            "descricao": "Double Team é uma música do album Funk Generation da lançado em 2024 pela Anitta"
+        },
+        {
+            "id": 6,
+            "titulo": "Alibi - Sevdaliza feat Pabllo Vittar & Yseult",
+            "categoria": "Pop internacional",
+            "capa": "https://th.bing.com/th/id/OIP.D-0DYq-PajXTMcs2kE06AQHaEK?rs=1&pid=ImgDetMain",
+            "link": "https://www.youtube.com/embed/qVqFuokjRMc",
+            "descricao": "Alibi é uma música de Sevdaliza  lançada em 2024 em parceria com Pabllo Vittar e Yseylt"
+        },
+        {
+            "id": 7,
+            "titulo": "K.O - Pabllo Vittar",
+            "categoria": "Pop nacional",
+            "capa": "https://th.bing.com/th/id/OIP.-HI50sgcAXRTdU7Fe-RsugAAAA?rs=1&pid=ImgDetMain",
+            "link": "https://www.youtube.com/embed/3L5D8by1AtI",
+            "descricao": "K.O um dos maiores hits loançado no país, fez parte do album de estreia da Pabllo Vittar, o iconico album Vai passar mal de 2017"
+        },
+        {
+            "id": 8,
+            "titulo": "It's not right but it's okay (Thunderpuss remix) - Whitney Houston",
+            "categoria": "Flashback",
+            "capa": "https://i.ytimg.com/vi/sgRl8ogdPIc/maxresdefault.jpg",
+            "link": "https://www.youtube.com/embed/URl05jN6KrE",
+            "descricao": "Remix da música It's not right but it's okay"
+        },
+        {
+            "id": 9,
+            "titulo": "Vougue - Madonna",
+            "categoria": "Flashback",
+            "capa": "https://th.bing.com/th/id/OIP.v_lSyj3Z7GMMwOLFeZw8MwAAAA?rs=1&pid=ImgDetMain",
+            "link": "https://www.youtube.com/embed/GuJQSAiODqI",
+            "descricao": "Vougue é uma música da cantora Madonna lançada em 1990"
+        },
+        {
+            "id": 10,
+            "titulo": "Hush hush - The Pussycat dolls",
+            "categoria": "Pop internacional",
+            "capa": "https://th.bing.com/th/id/R.49752a5a95e150f6cd357c7bdde508ae?rik=CqR8gqGSvIqLwA&riu=http%3a%2f%2fimages4.fanpop.com%2fimage%2fphotos%2f19600000%2fHush-Hush-Music-Video-the-pussycat-dolls-19696381-854-480.jpg&ehk=42JiP4V3vpd5XQV2%2fybMzYjCrRFQVz7OOTdkIZ0MGTU%3d&risl=&pid=ImgRaw&r=0",
+            "link": "https://www.youtube.com/embed/3BBsF7VIQyo"
+        }
+    ]
+}
