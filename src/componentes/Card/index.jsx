@@ -18,6 +18,10 @@ const Imagem = styled.div`
     border:  4px solid ${(props) => props.$color};
     border-radius: 4px;
     box-shadow: 0px 0px 17px 8px ${(props) => props.$color};
+    background: url(${(props)=> props.$imagemFundo});
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 `
 
 const DivBotaoContainer = styled.div`
@@ -42,14 +46,12 @@ const BotaoDiv = styled.div`
     cursor: pointer;
 `
 
-const Card = ({id, color, video, capa, titulo}) => {
+const Card = ({id, color, capa, titulo, video}) => {
     const videosContext = useVideosContext();
     return(
         <Cartao>
             <Link to={`/${id}`}>
-                <Imagem>
-                    <img src={capa} alt={titulo}/>
-                </Imagem>
+                <Imagem $color={color} $imagemFundo={video.capa} src={titulo}/>
             </Link>
             <DivBotaoContainer $color={color}>
                 <BotaoDiv>
