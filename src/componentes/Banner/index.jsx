@@ -21,13 +21,17 @@ cursor: pointer;
 div{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 90%;
 }
 h3{
-    font-size:  48px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size:  32px;
     margin: 20px 0;
 }
 p{
+    font-family: "Roboto", sans-serif;
+    text-shadow: 0.1em 0.1em black;
     font-size: 18px;
     color: #f5f5f5;
     text-align: justify;

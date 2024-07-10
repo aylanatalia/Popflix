@@ -50,15 +50,15 @@ const Card = ({id, color, capa, titulo, video}) => {
     const videosContext = useVideosContext();
     return(
         <Cartao>
-            <Link to={`/${id}`}>
+            <Link to={`/${video.id}`}>
                 <Imagem $color={color} $imagemFundo={video.capa} src={titulo}/>
             </Link>
             <DivBotaoContainer $color={color}>
-                <BotaoDiv>
+                <BotaoDiv onClick={()=> videosContext.deletarVideo(video)}>
                     <img src={deletarIcone} alt="deletar"/>
                     DELETAR
                 </BotaoDiv>
-                <BotaoDiv>
+                <BotaoDiv onClick={()=> videosContext.editarCard(video)}>
                     <img src={editarIcone} alt="editar"/>
                     EDITAR
                 </BotaoDiv>

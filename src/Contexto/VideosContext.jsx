@@ -23,6 +23,7 @@ export default function VideosProvider({children}){
     }, [])
 
     const [selecionado, setSelecionado] = useState(null)
+    const [modalAberto, setModalAberto] =useState(false)
 
     return(
         <VideosContext.Provider value={{videos, setVideos, categorias, setCategorias, selecionado, setSelecionado}}>
@@ -35,10 +36,15 @@ export function useVideosContext(){
     const {videos, setVideos} = useContext(VideosContext)
     const {categorias, setCategorias} = useContext(VideosContext)
     const {selecionado, setSelecionado} = useContext(VideosContext)
+    const {modalAberto, setModalAberto}= useContext(VideosContext)
 
     function editarCard(video){
         video ? window.scrollTo(0,350) : "";
         setSelecionado(video);
+    }
+
+    function modalAbre(boolean){
+        setModalAberto(boolean);
     }
 
     function adicionarVideo(video){
@@ -80,6 +86,8 @@ export function useVideosContext(){
         editarCard,
         adicionarVideo,
         atualiarVideo,
-        deletarVideo
+        deletarVideo,
+        modalAberto,
+        modalAbre
     }
 }
